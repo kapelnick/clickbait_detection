@@ -1,0 +1,43 @@
+Article 1:
+Title: "You Won't Believe What Happened Next!"
+Article Text: [Full article text]
+
+Questions:
+1. Is the title sensational or exaggerated? (Yes/No)
+2. Does the title create a sense of curiosity or mystery? (Yes/No)
+3. Is the title misleading or ambiguous? (Yes/No)
+4. Does the title make a strong claim or promise? (Yes/No)
+5. Does the title include clickbait phrases? (Yes/No)
+6. Does the title have a list format? (Yes/No)
+7. Does the article deliver on the promise made in the title? (Yes/No)
+8. Is the article informative and valuable? (Rating: 1 to 5)
+9. Does the article contain excessive ads or pop-ups? (Yes/No)
+10. Would you consider sharing this article with others? (Yes/No)
+11. Does the title accurately represent the content of the article? (Yes/No)
+
+Rating Scale:
+For Question 8: 1 - Not informative, 2 - Somewhat informative, 3 - Moderately informative, 4 - Informative, 5 - Highly informative
+
+Additional Information:
+Please review the article and provide your honest assessment of its click-bait characteristics. Your input will be used to validate and improve our automated click-bait scoring system.
+
+[End of Article 1]
+
+#Typically, 5 to 10 questions per article are reasonable. This range allows you to assess different aspects of click-bait content without overwhelming the raters with too many questions.
+
+#A common approach is to have each article rated by multiple raters (e.g., 3 to 5 raters). This allows you to calculate inter-rater agreement to assess the consistency of ratings among different raters.
+
+#Having a larger pool of raters can also help account for individual biases. Aim for at least 5 to 10 raters if possible.
+
+#Instructions to Raters: Provide clear and detailed instructions to raters, explaining the purpose of the task, the click-bait characteristics to look for, and the rating scale (if applicable). Encourage raters to provide honest and thoughtful evaluations.
+
+#Pilot Testing: Before launching the full rating process, consider conducting a pilot test with a small subset of articles and raters to identify any issues with the rating instructions or questions. This can help refine the rating process before scaling it up.
+
+#Timeframe: Consider the time it will take for raters to review each article and answer the questions. Ensure that the rating process is feasible within the desired timeframe.
+
+#As a general guideline, you could consider having each article rated by 3 to 5 raters, and select a random subset of approximately 20% to 30% of the total articles for rating. This would result in having 3 to 5 raters rate each article in the selected subset.
+
+For example:
+
+If you choose to have 20% of the articles rated: 20% of 1110 = 222 articles
+If you have 3 raters per article: Total articles for rating = 222 x 3 = 666 articles
