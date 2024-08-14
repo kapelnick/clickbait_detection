@@ -6,7 +6,7 @@ import joblib
 
 # ... (prepare the dataset with features and target variable as described above)
 # Load data from the Excel file
-df = pd.read_excel("output_dataframe.xlsx")
+df = pd.read_excel("annotated_clickbait_dataset_v2.xlsx")
 
 df = df[~((df['Title'] == '') | (df['Title'] == 'Newsbeast'))]
 print(df)

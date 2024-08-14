@@ -1,0 +1,66 @@
+The news articles are stored in text format in a directory
+
+The 1st script reads that directory and creates a dataframe with the following attributes
+
+title, title length, 
+title sentiment, 
+date, 
+time, 
+article text, 
+article text length, 
+article text sentiment, 
+title text sentiment similarity, 
+title text similarity, 
+curiosity gap, 
+numbered list, 
+clickbait score
+
+Here dummy "clickbait score" values are calculated based on whether the article has either an information gap or a numbered list True.
+
+======================================================
+
+with the 2nd script, the stored dataframe is read and the feature variables are separated from the target variable "Click-bait score"
+
+The data is split in train and test sets.  20% of the data is being used for testing, and 80% is being used for training.
+
+Then a random forests classifier is trained using the train sets and we make predictions using the test set.
+
+We calculate the accuracy and the importance of each feature variable for the training process. A bar plot that visualizes the feature importance is also produced.
+
+The trained classifier is stored in a .pkl file.
+
+=======================================================
+
+The 3rd script reads a news article store in a new directory
+
+It constructs a similar (to the previous step) dataframe, only this time the clickbait score column is missing.
+
+based on the feature variable of that new dataframe, it predicts the y variable which is the clickbait score.
+
+Results of the prediction are written in a new corresponding column in the dataframe.
+
+===============================================================
+
+Βut why do we do all this? What is the purpose of this research?
+
+It is easy for a user to determine whether a single article has click-bait features or not. Is there any value to this "service"?
+
+Even if an article is clickbait, are clickbait articles unreliable? Can we examine that?
+
+Should we process further clickbait articles to investigate their quality or other characteristics?
+
+Specific details about the curiosity gap lexicon*
+
+Maybe examine the similarity of those titles, to identify clickbait patterns?
+
+1. examine the length of the clickbait articles
+
+2. examine the similarity between the title and the article
+
+3. examine the sentiment similarity between the title and the article
+
+5. examine curiosity gap features of clickbait articles
+
+6. examine date and time in which clickbait articles are posted
+
+7. include information about the news media? such as: how many clickbait articles per media are observed?
