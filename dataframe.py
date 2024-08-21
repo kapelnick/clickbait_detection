@@ -106,7 +106,7 @@ def create_dataframe(directory_path):
     return df
 
 if __name__ == "__main__":
-    directory_path = r"C:\Users\kapel\Desktop\click_bait_data\naft"
+    directory_path = r"C:\Users\kapel\Desktop\Git\clickbait_detection\clickbait_detection\naft"
     df = create_dataframe(directory_path)
 
     decimal_places = 2  # Number of decimal places to round to
@@ -152,7 +152,7 @@ if __name__ == "__main__":
     df['Clickbait Score'] = df.apply(lambda row: 1 if row['Curiosity Gap'] or row['Numbered List'] else 0, axis=1)
     
     # Save the DataFrame to an Excel file
-    output_excel_file = "output_dataframe.xlsx"
+    output_excel_file = "output_dataframe2.xlsx"
     df.to_excel(output_excel_file, index=False, encoding='utf-8')
 
     print(f"DataFrame saved to {output_excel_file}.")
